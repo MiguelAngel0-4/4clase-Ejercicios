@@ -9,6 +9,7 @@ class Rectangulo{
         return this.ancho * this.alto;
     }
 
+    //metodo para calcular el perimetro
     perimetro(){
         return 2 * (this.ancho + this.alto);
     }
